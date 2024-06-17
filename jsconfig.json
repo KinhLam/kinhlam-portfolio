@@ -1,7 +1,10 @@
+// Nếu bạn đang sử dụng Next.js, bạn cần sử dụng file 'jsconfig.json' thay vì 'tsconfig.json'. File 'jsconfig.json' cũng có cấu trúc tương tự như 'tsconfig.json', nhưng nó chỉ cần đảm bảo rằng root value là một object.
+
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["app/*"]
     }
   }
 }
